@@ -64,7 +64,7 @@ JsiWorkletContext::JsiWorkletContext(
 
 JsiWorkletContext::~JsiWorkletContext() {
   // Remove from thread contexts
-  runtimeMappings.erase(&_workletRuntime);
+  // runtimeMappings.erase(&_workletRuntime); // Commented out as it crashes in iOS.  Why call erase on a runtimeMappings that's being destroyed?!
 }
 
 void JsiWorkletContext::initialize(

@@ -1,6 +1,6 @@
 {
-  "name": "react-native-worklets-core",
-  "version": "1.5.0",
+  "name": "@chuvincent/react-native-worklets-core",
+  "version": "1.5.0.1",
   "description": "A Worklet runner for React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -48,9 +48,14 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/margelo/react-native-worklets-core",
-  "author": "Christian Falch <christian.falch@gmail.com> (https://github.com/chrfalch)",
+  "repository": "https://github.com:chuvincent/react-native-worklets-core",
+  "author": "Vincent Chu <chuvincent@gmail.com> (https://github.com/chuvincent)",
   "contributors": [
+    {
+      "name": "Christian Falch",
+      "email": "christian.falch@gmail.com",
+      "url": "https://github.com/chrfalch"
+    },
     {
       "name": "Marc Rousavy",
       "email": "marc@margelo.io",
